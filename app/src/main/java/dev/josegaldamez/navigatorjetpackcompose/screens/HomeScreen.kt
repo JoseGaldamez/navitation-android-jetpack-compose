@@ -87,7 +87,6 @@ fun NameElement(name: String, navController: NavHostController){
         modifier = Modifier
             .padding(16.dp)
             .clickable {
-                // TODO: Enviar información a la siguiente pantalla
                 navController.navigate(
                     "${Screens.ContactScreen.name}?userName=$name")
 
